@@ -28,6 +28,7 @@ let ingredientFilter = ingredients.filter((elem, pos) => ingredients.indexOf(ele
 
 
 
+
 const appliance = recipsData.map(appliance => appliance.appliance);
  // créer le tableau pour la liste des appareils
 let applianceFilter = appliance.filter((elem, pos) => appliance.indexOf(elem) === pos);
